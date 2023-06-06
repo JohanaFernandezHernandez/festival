@@ -1,31 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rock & EDM Festival</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&display=swap"
+      rel="stylesheet"
+    />
 
-    <link rel="stylesheet" href="build/css/app.css">
-</head>
-<body>
-
+    <link rel="stylesheet" href="build/css/app.css" />
+  </head>
+  <body>
     <header class="header">
-        <div class="contenedor contenido-header">
-            <h1>Rock & EMD Festival</h1>
+      <div class="contenedor contenido-header">
+        <h1>Rock & EMD Festival</h1>
 
-            <nav class="navegacion-principal">
-                <a href="#">Line up</a>
-                <a href="#">Galeria</a>
-                <a href="#">Boletos</a>
-            </nav>
-
-        </div>
+        <nav class="navegacion-principal">
+          <a href="#">Line up</a>
+          <a href="#">Galeria</a>
+          <a href="#">Boletos</a>
+        </nav>
+      </div>
     </header>
 
-   
-</body>
+    <div class="video">
+      <div class="overlay">
+        <div class="contenedor contenido-video">
+          <h2>Rock & EDM Festival</h2>
+          <p>Junio 2023, Madrid, Cundinamarca</p>
+        </div>
+      </div>
+
+      <video autoplay muted loop>
+        <source src="video/concierto.mp4" type="video/mp4" />
+        <source src="video/concierto.ogg" type="video/ogg" />
+        <source src="video/concierto.webm" type="video/webm" />
+      </video>
+    </div>
+
+    <section class="contenedor sobre-festival">
+      <div class="imagen">
+        <img src="img/imagen_vocalista.jpg" alt="imagen Vocalista Festibal" />
+      </div>
+      <div class="contenido-festival">
+        <h2>Rock & EDM Festival</h2>
+        <p class="fecha">Junio 2023 Madrid Cundinamarca</p>
+        <p>
+          No sólo sobrevivió 500 años, sino que tambien ingresó como texto de
+          relleno en documentos electrónicos, quedando esencialmente igual al
+          original. Fue popularizado en los 60s con la creación de las hojas
+          "Letraset", las cuales contenian pasajes de Lorem Ipsum, y más
+          recientemente con software de autoedición.
+        </p>
+      </div>
+    </section>
+  </body>
 </html>
